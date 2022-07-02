@@ -1,0 +1,160 @@
+/* Font for logo */
+@import url(//db.onlinewebfonts.com/c/4f6fb2fa3c231278167b36e966718cbb?family=Uni+Sans+Heavy);
+
+/* Font for Menu and Button*/
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100;300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #404eed;
+}
+
+.navbar{
+    /* position: fixed; */
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    margin: 20px;
+    padding-top: 5px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.logo img{
+    padding: 10px;
+    width: 23%;
+    cursor: pointer;
+}
+
+.logo h4{
+    font-size: 25px;
+    color: white;
+    font-family: "Uni Sans Heavy";
+    letter-spacing: 0.7px;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 24px;
+    font-size: 18px;
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+}
+
+.menu ul li a:hover{
+    text-decoration: underline;    
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-primary{
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 25px;
+    cursor: pointer;
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 15px;
+}
+
+.btn-primary:hover{
+    color: #404eed;
+    box-shadow: 0px 8px 20px rgb(88, 86, 86);
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+.box h1{
+    color: white;
+    font-size: 4rem;
+    font-family: "Uni Sans Heavy";
+}
+
+.box p{
+    color: white;
+    padding: 35px 190px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Anek Latin', sans-serif;
+    line-height: 35px;
+}
+
+.run{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-secondary{
+    font-size: 22px;
+    padding: 17px 35px;
+    border: none;
+    border-radius: 40px;
+    margin: 20px;
+}
+
+#download{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+#download img{
+    margin: 5px;
+}
+
+#download:hover{
+    color: #404eed;
+    box-shadow: 0px 10px 25px rgb(66, 64, 64);
+}
+
+#open{
+    color: white;
+    background-color: #23272a;
+    cursor: pointer;
+}
+
+#open:hover{
+    color: white;
+    background-color: #35383b;
+    box-shadow: 0px 0px 15px rgb(66, 64, 64);
+}
